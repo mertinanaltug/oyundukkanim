@@ -1,0 +1,54 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+h2 {
+    color: blue;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left {
+    margin: 0;
+    padding: 0;
+}
+.navbar-left h2{
+    font-family: "Kablammo";
+}
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+}
+.navbar-right li {
+    margin-left: 15px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+.products p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: orange;
+}
+.products .list {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+}
+.products-list {
+    display: flex;
+    justify-content: center;
+}
+.products-list ol img {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+.products-list ol p {
+    display: flex;
+    justify-content: center;
+}
